@@ -1,0 +1,37 @@
+{
+  "name": "gulp-compression-report",
+  "version": "0.1.0-pre",
+  "description": "Provides a report on the compression statistics of a codebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epicoxymoron/gulp-compression-report.git"
+  },
+  "keywords": [
+    "gulp",
+    "compression",
+    "ratio",
+    "min"
+  ],
+  "author": "Justin Williamson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epicoxymoron/gulp-compression-report/issues"
+  },
+  "homepage": "https://github.com/epicoxymoron/gulp-compression-report",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cli-table": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "gzip-size": "^3.0.0",
+    "lodash": "^3.10.1",
+    "pluralize": "^1.2.1",
+    "pretty-bytes": "^3.0.0",
+    "stream-counter": "^1.0.0",
+    "through2": "^2.0.0"
+  }
+}
